@@ -1,15 +1,17 @@
 
 set(MAIN_SRC
   main.cpp
+  consolewriter.h
+  consolewriter.cpp
+  htmlwriter.h
+  htmlwriter.cpp
+  localfilewriter.h
+  localfilewriter.cpp
+  plainwriter.h
+  plainwriter.cpp
   writer.h
-  plainfilewriter.h
-  plainfilewriter.cpp
-  plainconsolewriter.h
-  plainconsolewriter.cpp
-  htmlconsolewriter.h
-  htmlconsolewriter.cpp
-  htmllocalfilewriter.h
-  htmllocalfilewriter.cpp
+  writer.cpp
+  writerimpl.h
 )
 
 add_executable(
