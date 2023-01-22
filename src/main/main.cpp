@@ -18,7 +18,7 @@ int main(int argc, char* argv[])
   plainConsoleWriter->openFile();
   plainConsoleWriter->writeData("plain console writer.");
   plainConsoleWriter->closeFile();
-
+  
   // Create html console writer.
   std::unique_ptr<Writer> htmlConsoleWriter;
   htmlConsoleWriter = std::make_unique<HtmlWriter>();
